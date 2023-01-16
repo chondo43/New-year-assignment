@@ -40,5 +40,32 @@
     background: #F15B22;
     border-radius: 5px;
     padding: 20px 25px;
+    border: none;
 
+}
+
+/* Article styles */
+.article-container {
+    display: flex;
+    gap: 105px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 157px;
+}
+
+.article-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.article-description{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+
+.items-description {
+    list-style: none;
 }
